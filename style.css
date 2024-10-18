@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 12.6vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3vw;
+}
+header .boxlogo {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+}
+header .boxlogo img {
+  width: 6.5vw;
+}
+header .boxlogo h1 {
+  color: white;
+  font-size: 1.7vw;
+}
+header nav {
+  width: 40vw;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vw;
+}
+header nav ul a {
+  color: white;
+}
+
+main {
+  font-size: 25px;
+  height: 150vh;
+}
+main .firstbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40.2vh;
+  padding-inline: 3vw;
+  background-color: #ffd9ec;
+}
+main .firstbox p {
+  width: 35vw;
+  font-size: 1.5vw;
+}
+main .secondbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 27.9vh;
+  background-color: #ff69b4;
+  padding-inline: 3vw;
+}
+main .secondbox p {
+  width: 35vw;
+  color: white;
+  font-size: 1.5vw;
+}
+main .thirdbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40.2vh;
+  padding-inline: 3vw;
+  border: solid 2px;
+  background-color: #ffd9ec;
+}
+
+footer .fourthBox {
+  background-color: #ff69b4;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .iconesbox {
+  width: 17vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .infobox {
+  color: white;
+  width: 25vw;
+  font-size: 0.95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
